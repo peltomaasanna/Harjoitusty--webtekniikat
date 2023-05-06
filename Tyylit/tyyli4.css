@@ -1,0 +1,233 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding-bottom: 6.74rem;
+  box-sizing: inherit;
+}
+
+#navigation {
+  background-color: #bdbdbd;
+  padding-left: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-family: "Poppins";
+}
+
+.nav-link {
+  font-family: "Poppins";
+  font-size: 17px;
+}
+
+a {
+  font-family: "Poppins";
+  font-size: 17px;
+}
+
+.col-4 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  font-family: "Poppins";
+  font-size: 30px;
+}
+
+p {
+  padding-top: 40px;
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+header {
+  background-color: #424242;
+  height: 200px;
+  padding: 20px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+footer {
+  background-color: #e0e0e0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+
+footer h1 {
+  color: #000000;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+.card-text {
+  padding-top: 10px;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+#third {
+  margin-bottom: 50px;
+}
+
+#message {
+  max-width: 219px;
+}
+
+
+/*accordion style*/
+.accordion img{
+  max-width: 5rem;
+}
+
+.accordion-body {
+  color: #1d0029;
+  text-align: left;
+  background-color: #bdbdbd;
+  margin-bottom: 10px;
+  max-width: 100%;
+  margin-left: 0px;
+}
+
+.accordion-button{
+  font-size: 24px;
+  max-width: 100%;
+  margin-left: 0px;
+}
+.accordion a {
+  font-size: 14px;
+}
+
+form {
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 20px;
+  height: 100%;
+  margin-bottom: 80px;
+}
+
+label{
+  margin-left: 50px;
+  font-size: large;
+  font-family: "Poppins";
+  margin-top: 30px;
+}
+
+input{
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-left: 50px;
+  max-width: 500px;
+}
+
+textarea{
+  margin-left: 50px;
+  margin-right: 200px;
+  max-width: 500px;
+}
+
+#important{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+button{
+  margin-left: 50px;
+  margin-top: 20px
+}
+
+.alert {
+  max-width: fit-content;
+  display: none;
+  margin-left: 50px;
+}
+
+form {
+  border: none;
+}
+
+
+table {
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 10px;
+  border-width: 0.1px;
+}
+
+th {
+ margin-right: 80px;
+}
+
+tbody {
+  display: block;
+  border: solid;
+  border-color: lightgrey;
+  border-radius: 0.5rem;
+  border-width: 0.1px;
+  width: 500px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#dogtales {
+  flex-wrap: nowrap;
+}
+
+.col-3 {
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  right: 0;
+  left: 0;
+}
+
+.col-3 img {
+  max-width: 90%;
+}
+
+.col-3 p {
+  padding-top: 5px;
+  font-size: large;
+}
+
+.important {
+  border-color: red;
+}
+
+
+#articledogs {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 500px)  {
+  .footer {
+     display:none;
+  }
+
+form {
+  max-width: 200px;
+}
+
+table {
+  max-width: 200px;
+}
+
+}
